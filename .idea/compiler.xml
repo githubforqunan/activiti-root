@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="activiti-bpmn-converter" />
+        <module name="activiti-bpmn-layout" />
+        <module name="activiti-bpmn-model" />
+        <module name="activiti-dmn-api" />
+        <module name="activiti-dmn-model" />
+        <module name="activiti-engine" />
+        <module name="activiti-form-api" />
+        <module name="activiti-form-model" />
+        <module name="activiti-image-generator" />
+        <module name="activiti-process-validation" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="activiti-bpmn-converter" target="1.7" />
+      <module name="activiti-bpmn-layout" target="1.7" />
+      <module name="activiti-bpmn-model" target="1.7" />
+      <module name="activiti-dmn-api" target="1.7" />
+      <module name="activiti-dmn-model" target="1.7" />
+      <module name="activiti-engine" target="1.7" />
+      <module name="activiti-form-api" target="1.7" />
+      <module name="activiti-form-model" target="1.7" />
+      <module name="activiti-image-generator" target="1.7" />
+      <module name="activiti-process-validation" target="1.7" />
+      <module name="activiti-root" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

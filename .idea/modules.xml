@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/modules/activiti-bpmn-converter/activiti-bpmn-converter.iml" filepath="$PROJECT_DIR$/modules/activiti-bpmn-converter/activiti-bpmn-converter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/activiti-bpmn-layout/activiti-bpmn-layout.iml" filepath="$PROJECT_DIR$/modules/activiti-bpmn-layout/activiti-bpmn-layout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/activiti-bpmn-model/activiti-bpmn-model.iml" filepath="$PROJECT_DIR$/modules/activiti-bpmn-model/activiti-bpmn-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/activiti-dmn-api/activiti-dmn-api.iml" filepath="$PROJECT_DIR$/modules/activiti-dmn-api/activiti-dmn-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/activiti-dmn-model/activiti-dmn-model.iml" filepath="$PROJECT_DIR$/modules/activiti-dmn-model/activiti-dmn-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/activiti-engine/activiti-engine.iml" filepath="$PROJECT_DIR$/modules/activiti-engine/activiti-engine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/activiti-form-api/activiti-form-api.iml" filepath="$PROJECT_DIR$/modules/activiti-form-api/activiti-form-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/activiti-form-model/activiti-form-model.iml" filepath="$PROJECT_DIR$/modules/activiti-form-model/activiti-form-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/activiti-image-generator/activiti-image-generator.iml" filepath="$PROJECT_DIR$/modules/activiti-image-generator/activiti-image-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/activiti-process-validation/activiti-process-validation.iml" filepath="$PROJECT_DIR$/modules/activiti-process-validation/activiti-process-validation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activiti-root.iml" filepath="$PROJECT_DIR$/activiti-root.iml" />
+    </modules>
+  </component>
+</project>
