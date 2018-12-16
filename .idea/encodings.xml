@@ -12,6 +12,31 @@
     <file url="file://$PROJECT_DIR$/modules/activiti-form-model" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/modules/activiti-image-generator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/modules/activiti-process-validation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-spring-boot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-spring-boot/spring-boot-samples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-actuator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-custom-mybatis-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-integration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-rest-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-rest-api-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-spring-boot/spring-boot-starters" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-spring-boot/spring-boot-starters/activiti-spring-boot-starter-actuator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-spring-boot/spring-boot-starters/activiti-spring-boot-starter-basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-spring-boot/spring-boot-starters/activiti-spring-boot-starter-integration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-spring-boot/spring-boot-starters/activiti-spring-boot-starter-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-spring-boot/spring-boot-starters/activiti-spring-boot-starter-rest-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-spring-boot/spring-boot-starters/activiti-spring-boot-starter-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-ui" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-ui/activiti-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-ui/activiti-app-conf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-ui/activiti-app-logic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-ui/activiti-app-rest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-ui/content-storage-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-ui/content-storage-fs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/activiti-ui/editor-image-generator" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

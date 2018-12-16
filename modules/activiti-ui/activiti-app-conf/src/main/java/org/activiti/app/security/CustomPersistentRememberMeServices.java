@@ -183,10 +183,12 @@ public class CustomPersistentRememberMeServices extends AbstractRememberMeServic
 
     PersistentToken token = persistentTokenService.getPersistentToken(presentedSeries);
 
-    if (token == null) {
-      // No series match, so we can't authenticate using this cookie
-      throw new RememberMeAuthenticationException("No persistent token found for series id: " + presentedSeries);
-    }
+    try {
+      if (token == null && token.getTokenValue() == null) {
+        // No series match, so we can't authenticate using this cookie
+        throw new RememberMeAuthenticationException("No persistent token found for series id: " + presentedSeries);
+      }
+
 
     // We have a match for this user/series combination
     if (!presentedToken.equals(token.getTokenValue())) {
@@ -206,6 +208,9 @@ public class CustomPersistentRememberMeServices extends AbstractRememberMeServic
 
     if (new Date().getTime() - token.getTokenDate().getTime() > tokenMaxAgeInMilliseconds) {
       throw new RememberMeAuthenticationException("Remember-me login has expired");
+    }
+    } catch (Exception e) {
+      throw new RememberMeAuthenticationException("No persistent token found for series id: " + presentedSeries);
     }
     return token;
   }

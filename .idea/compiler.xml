@@ -6,6 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="activiti-app" />
+        <module name="activiti-app-conf" />
+        <module name="activiti-app-logic" />
+        <module name="activiti-app-rest" />
         <module name="activiti-bpmn-converter" />
         <module name="activiti-bpmn-layout" />
         <module name="activiti-bpmn-model" />
@@ -16,9 +20,30 @@
         <module name="activiti-form-model" />
         <module name="activiti-image-generator" />
         <module name="activiti-process-validation" />
+        <module name="activiti-spring-boot-starter-actuator" />
+        <module name="activiti-spring-boot-starter-basic" />
+        <module name="activiti-spring-boot-starter-integration" />
+        <module name="activiti-spring-boot-starter-jpa" />
+        <module name="activiti-spring-boot-starter-rest-api" />
+        <module name="activiti-spring-boot-starter-security" />
+        <module name="content-storage-api" />
+        <module name="content-storage-fs" />
+        <module name="editor-image-generator" />
+        <module name="spring-boot-sample-actuator" />
+        <module name="spring-boot-sample-basic" />
+        <module name="spring-boot-sample-custom-mybatis-mapper" />
+        <module name="spring-boot-sample-integration" />
+        <module name="spring-boot-sample-jpa" />
+        <module name="spring-boot-sample-rest-api" />
+        <module name="spring-boot-sample-rest-api-security" />
+        <module name="spring-boot-sample-security" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="activiti-app" target="1.7" />
+      <module name="activiti-app-conf" target="1.7" />
+      <module name="activiti-app-logic" target="8" />
+      <module name="activiti-app-rest" target="1.7" />
       <module name="activiti-bpmn-converter" target="1.7" />
       <module name="activiti-bpmn-layout" target="1.7" />
       <module name="activiti-bpmn-model" target="1.7" />
@@ -30,6 +55,27 @@
       <module name="activiti-image-generator" target="1.7" />
       <module name="activiti-process-validation" target="1.7" />
       <module name="activiti-root" target="1.7" />
+      <module name="activiti-spring-boot" target="1.7" />
+      <module name="activiti-spring-boot-samples" target="1.7" />
+      <module name="activiti-spring-boot-starter-actuator" target="1.7" />
+      <module name="activiti-spring-boot-starter-basic" target="1.7" />
+      <module name="activiti-spring-boot-starter-integration" target="1.7" />
+      <module name="activiti-spring-boot-starter-jpa" target="1.7" />
+      <module name="activiti-spring-boot-starter-rest-api" target="1.7" />
+      <module name="activiti-spring-boot-starter-security" target="1.7" />
+      <module name="activiti-spring-boot-starters" target="1.7" />
+      <module name="activiti-ui-root" target="1.7" />
+      <module name="content-storage-api" target="1.7" />
+      <module name="content-storage-fs" target="1.7" />
+      <module name="editor-image-generator" target="1.7" />
+      <module name="spring-boot-sample-actuator" target="1.7" />
+      <module name="spring-boot-sample-basic" target="1.7" />
+      <module name="spring-boot-sample-custom-mybatis-mapper" target="1.7" />
+      <module name="spring-boot-sample-integration" target="1.7" />
+      <module name="spring-boot-sample-jpa" target="1.7" />
+      <module name="spring-boot-sample-rest-api" target="1.7" />
+      <module name="spring-boot-sample-rest-api-security" target="1.7" />
+      <module name="spring-boot-sample-security" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
